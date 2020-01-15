@@ -57,14 +57,16 @@
         "pain": "轻微疼痛",
         "createDate": "2020-01-02",
         "updateStatus": "1",
-        "plalceSize": "1~3CM"  
+        "plalceSize": "1~3CM",    
+        "musicUrl": "http://www.baidu.com"  
       },{    
         "fileName": "music",    
         "fileSize": "1024",
         "pain": "无痛",
         "createDate": "2020-01-01",
         "updateStatus": "0",
-        "plalceSize": "<1CM"   
+        "plalceSize": "<1CM",    
+        "musicUrl": "http://www.baidu.com"    
       }]
     }
     ```
