@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "msg": "登录成功",
+  "obj": {
+    "loginName": "admin",
+    "userName": "管理员",
+    "userId": "45473EC8D9FD43B38C1DED24D69398FA",
+    "userCode": "admin"
+  }
+}
