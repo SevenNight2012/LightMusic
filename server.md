@@ -20,10 +20,13 @@
       "success": true,  
       "msg": "登录成功",  
       "obj": {    
+        "validityDate": "2020-01-13",
         "loginName": "admin",    
         "userName": "管理员",    
         "userId": "45473EC8D9FD43B38C1DED24D69398FA",    
-        "userCode": "admin"  
+        "userCode": "admin",
+        "loginNum": 4,
+        "createDate": "2020-01-14"  
       }
     }
     ```    
@@ -35,6 +38,9 @@
       userName 姓名  
       userId Id  
       userCode 用户编号 暂时无用
+      validityDate:到期时间    
+      loginNum:登录次数    
+      createDate:创建时间    
 
 4.  ~~忘记密码，即重置密码(1. 可直接与管理员沟通进行修改，2.直接通过验证码修改)~~    
     delay
@@ -51,22 +57,24 @@
     {  
       "success": true,  
       "msg": "获取成功",  
-      "obj": [{    
+      "obj": [{   
+        "id": "musicId"
         "fileName": "music",    
         "fileSize": "2048",
         "pain": "轻微疼痛",
         "createDate": "2020-01-02",
         "updateStatus": "1",
         "plalceSize": "1~3CM",    
-        "musicUrl": "http://www.baidu.com"  
-      },{    
+        "filePath": "http://www.baidu.com"  
+      },{   
+        "id": "musicId"
         "fileName": "music",    
         "fileSize": "1024",
         "pain": "无痛",
         "createDate": "2020-01-01",
         "updateStatus": "0",
         "plalceSize": "<1CM",    
-        "musicUrl": "http://www.baidu.com"    
+        "filePath": "http://www.baidu.com"    
       }]
     }
     ```
@@ -74,6 +82,7 @@
     success 返回成功   
     msg 返回消息   
     obj 返回结果   
+    id 文件id
     fileName 文件名称   
     fileSize 文件大小   
     pain 疼痛感 1：无痛；2：轻微疼痛；3轻度疼痛；4：中度疼痛；5：重度疼痛；6剧烈疼痛     
@@ -85,4 +94,9 @@
      3:3-6CM;    
      4:6-10CM;    
      0:其他    
-     musicUrl:音频在线地址    
+     filePath:音频在线地址    
+8.  下载接口        
+    url:visual/misFile/download             
+    method:POST         
+    param:id：文件ID；fileName：文件名称（需后缀名）    
+    response:    
