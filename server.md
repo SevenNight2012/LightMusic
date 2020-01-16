@@ -61,19 +61,19 @@
         "id": "musicId"
         "fileName": "music",    
         "fileSize": "2048",
-        "pain": "轻微疼痛",
+        "pain": 1,
         "createDate": "2020-01-02",
-        "updateStatus": "1",
-        "plalceSize": "1~3CM",    
+        "updateStatus": 0,
+        "plalceSize": 3,    
         "filePath": "http://www.baidu.com"  
       },{   
         "id": "musicId"
         "fileName": "music",    
         "fileSize": "1024",
-        "pain": "无痛",
+        "pain": 1,
         "createDate": "2020-01-01",
-        "updateStatus": "0",
-        "plalceSize": "<1CM",    
+        "updateStatus": 0,
+        "plalceSize": 1,    
         "filePath": "http://www.baidu.com"    
       }]
     }
