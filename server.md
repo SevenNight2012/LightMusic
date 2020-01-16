@@ -82,7 +82,7 @@
     success 返回成功   
     msg 返回消息   
     obj 返回结果   
-    id 文件id
+    id 文件id    
     fileName 文件名称   
     fileSize 文件大小   
     pain 疼痛感 1：无痛；2：轻微疼痛；3轻度疼痛；4：中度疼痛；5：重度疼痛；6剧烈疼痛     
