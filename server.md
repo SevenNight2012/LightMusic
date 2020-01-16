@@ -54,28 +54,31 @@
     param:无    
     response:    
     ```
-    {  
-      "success": true,  
-      "msg": "获取成功",  
-      "obj": [{   
-        "id": "musicId"
-        "fileName": "music",    
-        "fileSize": "2048",
-        "pain": 1,
-        "createDate": "2020-01-02",
-        "updateStatus": 0,
-        "plalceSize": 3,    
-        "filePath": "http://www.baidu.com"  
-      },{   
-        "id": "musicId"
-        "fileName": "music",    
-        "fileSize": "1024",
-        "pain": 1,
-        "createDate": "2020-01-01",
-        "updateStatus": 0,
-        "plalceSize": 1,    
-        "filePath": "http://www.baidu.com"    
-      }]
+    {
+      "success": true,
+      "msg": "获取成功",
+      "obj": [
+        {
+          "id": "musicId_1",
+          "fileName": "music_1",
+          "fileSize": "2048",
+          "pain": 1,
+          "createDate": "2020-01-02",
+          "updateStatus": 0,
+          "plalceSize": 3,
+          "filePath": "http://www.baidu.com"
+        },
+        {
+          "id": "musicId_2",
+          "fileName": "music_2",
+          "fileSize": "1024",
+          "pain": 1,
+          "createDate": "2020-01-01",
+          "updateStatus": 0,
+          "plalceSize": 1,
+          "filePath": "http://www.baidu.com"
+        }
+      ]
     }
     ```
     参数说明:    
