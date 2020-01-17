@@ -3,24 +3,48 @@
   "msg": "获取成功",
   "obj": [
     {
-      "id": "musicId_1",
-      "fileName": "music_1",
-      "fileSize": "2048",
-      "pain": 1,
-      "createDate": "2020-01-02",
-      "updateStatus": 0,
-      "plalceSize": 3,
-      "filePath": "http://www.baidu.com"
+      "fileName": "测试ABC.mp3",
+      "pain": 4,
+      "plalceSize": 1,
+      "fileSize": "9.5",
+      "filePath": "D:\\image\\",
+      "id": "1A1A87CAF435446D85F8BEFDB2DAE181",
+      "version": 1,
+      "fileType": 1,
+      "createDate": "2020-01-17"
     },
     {
-      "id": "musicId_2",
-      "fileName": "music_2",
-      "fileSize": "1024",
+      "fileName": "飞翔的心灵.mp3",
+      "pain": 2,
+      "plalceSize": 4,
+      "fileSize": "9.5M",
+      "filePath": "D:\\image\\",
+      "id": "1A1A87CAF435446D85F8BEFDB2DAE187",
+      "version": 1,
+      "fileType": 0,
+      "createDate": "2020-01-17"
+    },
+    {
+      "fileName": "平心静气.mp3",
+      "pain": 3,
+      "plalceSize": 2,
+      "fileSize": "9.5",
+      "filePath": "D:\\image\\",
+      "id": "1A1A87CAF435446D85F8BEFDB2DAE188",
+      "version": 1,
+      "fileType": 1,
+      "createDate": "2020-01-17"
+    },
+    {
+      "fileName": "脉轮放松与静心.mp3",
       "pain": 1,
-      "createDate": "2020-01-01",
-      "updateStatus": 0,
-      "plalceSize": 1,
-      "filePath": "http://www.baidu.com"
+      "plalceSize": 3,
+      "fileSize": "9.5",
+      "filePath": "D:\\image\\",
+      "id": "1A1A87CAF435446D85F8BEFDB2DAE189",
+      "version": 1,
+      "fileType": 0,
+      "createDate": "2020-01-17"
     }
   ]
 }
