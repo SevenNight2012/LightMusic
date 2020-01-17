@@ -66,7 +66,6 @@
           "createDate": "2020-01-02",
           "updateStatus": 0,
           "plalceSize": 3,
-          "filePath": "http://www.baidu.com",
           "fileType": 0,
           "version":1
         },
@@ -78,7 +77,6 @@
           "createDate": "2020-01-01",
           "updateStatus": 0,
           "plalceSize": 1,
-          "filePath": "http://www.baidu.com",
           "fileType": 0,
           "version": 1
         }
@@ -101,7 +99,7 @@
      3:3-6CM;    
      4:6-10CM;    
      0:其他    
-     filePath:音频在线地址    
+     ~~filePath:音频在线地址~~  
      fileType:类型，0为语音，1为音乐    
      version:版本信息
 8.  下载接口        
