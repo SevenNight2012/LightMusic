@@ -107,3 +107,15 @@
     method:POST         
     param:id：文件ID；fileName：文件名称（需后缀名）    
     response:    
+9.  修改密码，用户登录系统都修改密码    
+    url:visual/misFile/download    
+    method:POST    
+    param:userId:用户id；password：新密码    
+    response:
+    ```
+    {
+	     "success": true,
+	      "msg": "操作成功",
+	      "obj": "SUCCESS"
+    }
+    ```
